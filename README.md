@@ -1,16 +1,26 @@
 # Twitter Bootstrap CSS for Rails 3
 Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.
 It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
-css-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3 projects
+css-bootstrap-rails project integrates Bootstrap CSS and Javascript toolkits for Rails 3 projects
 
 ## Rails 3.1
-Include Bootstrap in Gemfile, 
+Include Bootstrap in Gemfile
 
     gem 'css-bootstrap-rails'
 
-and add bootstrap in manifest file css file. Add into application.css
+Add bootstrap in manifest file css file. Add into application.css
 
     *= require bootstrap
+
+Add javascript directives to the application.js manifest file as needed
+
+		//= require bootstrap-alerts
+  	//= require bootstrap-dropdown 
+  	//= require bootstrap-modal
+  	//= require bootstrap-popover
+  	//= require bootstrap-scrollspy
+  	//= require bootstrap-tabs
+  	//= require bootstrap-twipsy   
 
 ## Thanks
 Thanks Twitter for Bootstrap
